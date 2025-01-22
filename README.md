@@ -32,8 +32,8 @@ Percentages (e.g., 90vw, 5%) ensure layout adaptability.
 This code provides a visually appealing and interactive design for a streaming platform interface.
 
 OUTPUT:
-<img width="335" alt="Op1" src="https://github.com/user-attachments/assets/604960ef-1b12-4743-9983-3730bab78e89" />
 
+<img width="335" alt="Op1" src="https://github.com/user-attachments/assets/604960ef-1b12-4743-9983-3730bab78e89" />
 
 <img width="332" alt="op2" src="https://github.com/user-attachments/assets/e939862f-3c05-4e9d-acaa-bfaa32e6a64d" />
 
