@@ -1,0 +1,241 @@
+#html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="main1">
+    <img src="https://media.istockphoto.com/id/1417392204/vector/abstract-background-the-studio-space-is-empty-with-a-smooth-and-soft-brown-color.jpg?s=612x612&w=0&k=20&c=mhY6o_kRsPvAV-RgN0balNY3yKvz-ew3HVCl4SXg0Hw=" id="img1">
+      <div id="main11">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" >
+    </div>
+      <div id="main12">
+        <img src="https://www.shortlist.com/media/imager/202401/62264-posts.facebook_lg.jpg">
+      </div>
+      <div id="main13">
+        <h1>Endless Entertainment Starts here.</h1>
+        <h1>Plans from $149</h1>
+        <h3>Cancel or Switch plans anytime</h3>
+      </div>
+      <div id="main14">
+        <table>
+          <tr>
+            <td>
+              <div id="sub4">
+                <img src="https://tfpc.in/wp-content/uploads/2024/07/Screenshot-2024-07-29-093412.png?v=1722226023">
+                <div id="sub41">
+                  <h1>Vidamuyarchi</h1>
+                </div></div>
+              </td>
+
+              <td>
+                <div id="sub4">
+                  <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202411/amaran-released-theatrically-on-october-31-photo-instagram--sivakarthikeyan-294348847-3x4.jpg?VersionId=eyp92LKeldQP9T_pLH4uQ1aCoru4mbe2">
+                  <div id="sub41">
+                    <h1>Amaran</h1>
+                  </div></div>
+                </td>
+
+                <td>
+                  <div id="sub4">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTg5NjY0NGEtMDFhOS00MzJiLTg1NWEtZDhhNWQ5MmE4ZWIxXkEyXkFqcGc@._V1_.jpg">
+                    <div id="sub41">
+                      <h1>Squid Game</h1>
+                    </div></div>
+                  </td>
+
+                  <td>
+                    <div id="sub4">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/The_Greatest_of_All_Time.jpg/220px-The_Greatest_of_All_Time.jpg">
+                      <div id="sub41">
+                        <h1>GOAT</h1>
+                      </div></div>
+                    </td>
+
+                    <td>
+                      <div id="sub4">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2732f028eba1f3fd35060908f80">
+                        <div id="sub41">
+                          <h1>Vettaiyan</h1>
+                        </div></div>
+                      </td>
+                    </tr>
+               </table>
+             </div>
+      <div id="main15">
+        <table>
+          <tr>
+            <td>
+              <select >
+                <option value="">Tamil</option>
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">Telugu</option>
+                <option value="">Malayalam</option>
+              </select>
+            </td>
+            <td>
+              <button>Sign-in</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="main16">
+        <table>
+          <tr>
+            <td>
+              <input type="email" placeholder="Enter your email" id="">
+            </td>
+            <td>
+              <button>Submit</button>
+            </td>
+          </tr>
+        </table>
+    </div> 
+    </div>
+</body>
+</html>
+
+
+#css
+
+body{
+    margin: 0px;
+}
+#main1{
+    width: 100vw;
+    height: 100vh;
+    position:relative
+}
+#img1{
+    width: 100%;
+    height: 100%;
+}
+#main11 img{
+    width: 120px;
+}
+#main11{
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+#main12{
+    position: absolute;
+    top: 100px;
+    width: 90vw;
+    left: 5vw;
+    height: 50vh;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+#main12 img{
+    width:100% ;
+    height: 100%;
+    border-radius: 40px;
+    filter: brightness(30%);
+}
+#main13{
+    position: absolute;
+    top: 100px;
+    color: aliceblue;
+    width: 80vw;
+    left: 10vw;
+    text-align: center;
+    font-size: xx-large;
+}
+#sub4 img{
+    width: 200px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding-left: 2px;
+}
+#sub4{
+    position: relative;
+}
+#sub41{
+    position:relative;
+    top:0px;
+    color:rgb(152, 42, 42,0.1);
+   text-align: center;
+}
+#sub41:hover{
+    transition: all ease 1.0s;
+    color:white
+}
+#sub4 img:hover{
+    transition: all ease 0.4s;
+    border-color:black ;
+    transform: scale(1.2);
+}
+#main14{
+    position: absolute;
+    top: 450px;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main14 td{
+       padding-left:30px ;
+}
+#main15{
+    position: absolute;
+    top:20px;
+    right: 300px;
+}
+#main15 select{
+    height:30px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-left: 3px;
+}
+#main15 button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding-left: 3px;
+}
+#main16{
+    position: absolute;
+    top: 800px;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main16 input{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(0, 0, 0,0.3);
+    color: silver;
+    border: 3px solid silver;
+    border-radius: 20px;
+}
+#main16 input::placeholder{
+    color: white;
+    font-size: larger;
+    padding-left: 20px;
+}
+#main16 button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(197, 17, 17);
+    border: 3px solid silver;
+    border-radius: 20px;
+    font-size: larger;
+}
+            
