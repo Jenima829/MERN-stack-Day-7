@@ -1,4 +1,4 @@
-<img width="932" alt="op2" src="https://github.com/user-attachments/assets/92970fea-4184-4dfe-bbe9-1092f0545c88" />This code creates a Netflix-themed Landing page. 
+This code creates a Netflix-themed Landing page. 
 Here is the concise explanation of code
 
 1.HTML Structure:
